@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-item {
+    display: flex;
+    padding: 3vw;
+    margin: 3vw;
+    background-color: lightcyan;
+    border: 6px solid cornflowerblue;
+    border-radius: 10px;
+}
+
+/* Media Section  */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .flex-container {
+        display: row;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .flex-item {
+        font: size 30px;
+    }
+}
+
+/* Media Section  */
